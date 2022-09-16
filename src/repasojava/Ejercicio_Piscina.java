@@ -31,7 +31,8 @@ public class Ejercicio_Piscina {
 
         piscina = new Piscina(long_vaso, long_parcela, ancho_vaso, ancho_parcela);
         aforo = piscina.getAforo();
-        //mostrar aforo
+      
+        
         System.out.println("El aforo de la piscina es: " + aforo + " personas");
     }
 
